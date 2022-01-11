@@ -6,6 +6,7 @@
 /*Typography*/
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
+  margin: 77px 0;
   height: 200vh;
 }
 html {
@@ -47,27 +48,31 @@ a {
 }
 /*Navigation Bar*/
 .navBar {
+  background: #fff;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
 }
 .nav__logo {
   padding: 25px;
 }
 .nav__menu {
-  font-size: 23px;
   align-self: center;
-  padding-right: 25px;
   color: var(--color-primary);
+  font-size: 23px;
+  padding-right: 25px;
 }
 .nav__list {
   background: var(--color-secondary);
   font-size: 1.3rem;
-  padding: 0;
   margin: 0;
-  width: 100%;
+  padding: 0;
   text-transform: uppercase;
+  width: 100%;
 }
 .nav__list-item {
   padding: 1.3rem;
@@ -97,9 +102,9 @@ a {
     display: flex;
   }
   .nav__list {
-    display: flex;
     align-self: center;
     background: #fff;
+    display: flex;
     font-size: 1.6rem;
     width: auto;
   }
