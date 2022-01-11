@@ -98,3 +98,9 @@ a {
     color: var(--color-primary);
   }
 }
+/*Hero*/
+.hero__img {
+  background: 50% 50% url(../Images/necklace.jpg) no-repeat;
+  height: 450px;
+  background-size: cover;
+}
