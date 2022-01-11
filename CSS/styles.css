@@ -12,6 +12,10 @@ body {
 html {
   font-size: 62.5%;
 }
+/*Layout*/
+main {
+  margin: 0 15px;
+}
 /*List*/
 .list {
   list-style: none;
