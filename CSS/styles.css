@@ -346,6 +346,12 @@ a {
   margin-top: 50px;
 }
 /*Cards*/
+.card__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+}
 .card {
   height: 400px;
   width: 200px;
@@ -421,4 +427,10 @@ a {
 }
 .card:hover .card__btn {
   opacity: 1;
+}
+@media screen and (min-width: 975px) {
+  .card__container {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
