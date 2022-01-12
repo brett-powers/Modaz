@@ -436,12 +436,13 @@ a {
 }
 /*SpotLight*/
 .spotLight {
+  align-items: center;
   background: var(--color-background-light);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   height: 390px;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
 }
 .spotLight__trend,
 .spotLight__collection {
